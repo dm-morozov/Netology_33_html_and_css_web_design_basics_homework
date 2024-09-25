@@ -1,0 +1,38 @@
+:root {
+    --main-link-color: #349bdf;
+    --main-font: Arial, Helvetica, sans-serif;
+    --main-font-size: 16px;
+    --main-line-height: 1.4;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--main-font-size);
+    margin: 0;
+}
+
+.card {
+    width: 800px;
+    margin: 50px auto 0;
+    padding: 15px;
+    box-shadow: 1px 1px 7px 1px rgba(187, 177, 177, .65);
+    border: 1px solid #eee;
+    border-radius: 3px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.card-img {
+    border: 1px solid #ddd;
+    width: 180px;
+    flex: none;
+}
+
+div.card-content {
+    margin-left: 30px;
+}
+
+h1.card-name {
+    margin-top: 0;
+    font-size: 24px;
+}
